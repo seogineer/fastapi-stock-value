@@ -17,7 +17,8 @@ uvicorn main:app --reload
 ````
 
 ### API
-POST /stock
+POST http://127.0.0.1:8000/stock  
+Content-Type: application/json
 
 Request Body  
 ````json
